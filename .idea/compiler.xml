@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Discovery-servcice" />
         <module name="CustomerService" />
+        <module name="Billing-Service" />
         <module name="Inventory-service" />
         <module name="getaway" />
       </profile>
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Billing-Service" options="-parameters" />
       <module name="CustomerService" options="-parameters" />
       <module name="Discovery-servcice" options="-parameters" />
       <module name="Inventory-service" options="-parameters" />
